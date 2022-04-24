@@ -11,10 +11,10 @@ echo"<link rel='stylesheet' href='allcss.css'>";
     <title>Add Product</title>
     </head>";
 	
-echo "<section class='bg-primary'>
-	<article class='py-5 text-center text-white'>
+echo "<section class='bg-none'>
+	<article class='py-5 text-center text-black'>
 	 	<div>
-	 		<h3 class='display-4 text-white'>Add a new product in inventory</h3>
+	 		<h3 class='display-4 text-black'>Add a new product in inventory</h3>
              
 	 	</div>
 	</article>
