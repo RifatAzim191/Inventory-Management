@@ -9,10 +9,8 @@ echo "<meta charset = 'UTF-8'>";
     <title>Restock Message</title>
     </head>";
 	
-	//attempt mysql server conncetion with default setting
 	$link = mysqli_connect("localhost", "root", "", "emp_demo_02");
 	
-	//check connection
 	if($link === false){
 		die("ERROR: Could not connect".mysqli_connect_error());
 	}
