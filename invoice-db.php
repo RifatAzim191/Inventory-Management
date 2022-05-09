@@ -61,7 +61,7 @@ $pdf->Cell(59	,5,'',0,1);
 
 $pdf->SetFont('Arial','',12);
 
-$pdf->Cell(130	,5,'Project Demo by Rifat Azim & Mahirul Amin Laskar',0,0);
+$pdf->Cell(130	,5,'Project Demo by Rifat Azim',0,0);
 $pdf->Cell(59	,5,'',0,1);
 
 $pdf->Cell(130	,5,'Khilgaon, Dhaka-1219',0,0);
