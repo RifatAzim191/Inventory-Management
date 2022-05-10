@@ -79,21 +79,6 @@ div.relative {
 .btn:hover::before{
 	height: 180%;
 }
-.glow {
-  color: #fff;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #bfc5ff, 0 0 40px #bfc5ff, 0 0 50px #bfc5ff, 0 0 60px #bfc5ff, 0 0 70px #bfc5ff;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #bdbffc, 0 0 40px #bdbffc, 0 0 50px #bdbffc, 0 0 60px #bdbffc, 0 0 70px #bdbffc, 0 0 80px #bdbffc;
-  }
-}
 </style>
 </head>
 <body>

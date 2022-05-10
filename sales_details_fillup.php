@@ -9,10 +9,9 @@ session_start();
 	echo "<head>
     <title>Sale</title>
     </head>";
-	//attempt mysql server conncetion with default setting
+	
 	$link = mysqli_connect("localhost", "root", "", "emp_demo_02");
 	
-	//check connection
 	if($link === false){
 		die("ERROR: Could not connect".mysqli_connect_error());
 	}
@@ -39,11 +38,11 @@ session_start();
 		 if(mysqli_num_rows($result) > 0){
 			 while($row = mysqli_fetch_array($result)){
 				 $custid = $row[0];
-				 //echo "found same customer";
-				 echo "<section class='bg-primary'>
-	<article class='py-5 text-center text-white'>
+				 echo "found same customer";
+				 echo "<section class='bg-none'>
+	<article class='py-5 text-center text-dark'>
 	 	<div>
-	 		<h3 class='display-5 text-white'>Found Same Customer</h3>
+	 		<h3 class='display-5 text-dark'>Found Same Customer</h3>
              
 	 	</div>
 	</article>

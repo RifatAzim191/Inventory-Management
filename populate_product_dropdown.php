@@ -55,7 +55,7 @@ echo "<head>
 		 }
 	}
 	
-		echo "<section class='bg-primary'>
+		echo "<section class='bg-none'>
 	<article class='py-5 text-center text-white'>
 	 	<div>
 	 		<h3 class='display-4 text-white'>Update a product from inventory</h3>
